@@ -6,10 +6,6 @@ h2 {
     text-align: center
 }
 
-.img-fluid {
-    max-width: 100%;
-}
-
 td {
     text-align: center;
 }
@@ -17,3 +13,8 @@ td {
 th {
     text-align: center;
 }
+
+.img-fluid {
+    max-width: 100%;
+}
+
