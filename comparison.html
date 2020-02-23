@@ -1,6 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -39,16 +40,45 @@
             </div>
         </nav>
         
-        
-        
-        <div>
-
-        </div>
-        <div>
-
-        </div>
-        <div>
-
+        <div class="container">
+            <h1>
+                Various Weather Parameters vs. Latitude
+            </h1>
+            <center>Click any plot to take a closer look.</center>
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>
+                        Max Temperature
+                    </h2>
+                    <a href="max_temp.html" title="">
+                        <img src="02 Max Temperature vs. City Latitude.png" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h2>
+                        Humidity
+                    </h2>
+                    <a href="humidity.html" title="">
+                        <img src="03 Humidity vs. City Latitude.png" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h2>
+                        Cloudiness
+                    </h2>
+                    <a href="cloudiness.html" title="">
+                        <img src="04 Cloudiness vs. City Latitude.png" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h2>
+                        Wind Speed
+                    </h2>
+                    <a href="wind_speed.html" title="">
+                        <img src="05 Wind Speed vs. City Latitude.png" class="img-fluid">
+                    </a>
+                </div>
+            </div>
         </div>
     </body>
 </html>
