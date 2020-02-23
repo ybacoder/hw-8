@@ -13,3 +13,7 @@ td {
 th {
     text-align: center;
 }
+
+.m-auto {
+    width: 100%;
+}
