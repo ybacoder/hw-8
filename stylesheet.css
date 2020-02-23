@@ -1,9 +1,13 @@
 h1 {
-    text-align: center
+    margin-top:15px;
+    text-align: center;
+    color: #2F9CFC;
 }
 
 h2 {
-    text-align: center
+    margin-top:50px;
+    text-align: center;
+    color: #2F9CFC;
 }
 
 td {
@@ -12,6 +16,7 @@ td {
 
 th {
     text-align: center;
+    color: #2F9CFC;
 }
 
 .m-auto {
